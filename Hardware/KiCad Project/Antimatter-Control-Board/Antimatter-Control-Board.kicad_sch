@@ -2116,7 +2116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 93.98 92.7099 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 82.55 102.8699 0)
 			(effects
 				(font
@@ -2702,6 +2702,48 @@
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
 					(reference "#PWR08")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.694 32.004)
+		(size 41.402 38.354)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8a8e40c-38ac-41fb-a559-10b5fa02217c")
+		(property "Sheetname" "Transceiver"
+			(at 218.694 31.2924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Transceiver.kicad_sch"
+			(at 218.694 70.9426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
+					(page "2")
 				)
 			)
 		)
