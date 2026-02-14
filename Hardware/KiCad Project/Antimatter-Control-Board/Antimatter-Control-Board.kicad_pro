@@ -415,6 +415,10 @@
     [
       "b8a8e40c-38ac-41fb-a559-10b5fa02217c",
       "Transceiver"
+    ],
+    [
+      "d7ef5df8-638b-454c-90c6-da1c11f20dab",
+      "Motor Driver 1"
     ]
   ],
   "text_variables": {}
