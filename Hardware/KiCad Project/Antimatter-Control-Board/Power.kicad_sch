@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "12f7c725-dd38-48f0-a689-d678acfddd25")
+	(uuid "139cbbe8-45bc-4cd5-8d00-4c41273f8625")
 	(paper "A4")
 	(lib_symbols
 		(symbol "1M_LDO:AP2210N-3.3TRG1"

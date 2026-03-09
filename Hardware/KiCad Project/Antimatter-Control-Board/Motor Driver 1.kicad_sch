@@ -893,7 +893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff40dad-f654-4efe-93be-49408e2d12f5")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -938,12 +938,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a2b86a9-18d0-46bf-96e1-47fb25213c2d")
+			(uuid "8d57ea59-a796-458d-b302-91d342e7b58d")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "#PWR021")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -959,7 +959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "512a04da-aac3-4b2a-856b-f7ebb53321af")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR"
 			(at 148.59 116.84 0)
 			(effects
 				(font
@@ -1004,12 +1004,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3ec9321-9c33-43c3-ab7c-db4df1142f34")
+			(uuid "0eb79556-b384-444b-a551-8e9784ccb4be")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "#PWR020")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1070,10 +1070,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b06986d4-b139-496a-a93e-656a7383a9d9")
+			(uuid "9859dab7-4d73-4f57-ad69-30d82b315c9b")
 		)
 		(instances
 			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "#PWR027")
+					(unit 1)
+				)
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
 					(reference "#PWR022")
 					(unit 1)
@@ -1091,7 +1095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c66991d-6880-4b63-8988-40e2f008e0f0")
-		(property "Reference" "J2"
+		(property "Reference" "J"
 			(at 175.26 96.5199 0)
 			(effects
 				(font
@@ -1100,7 +1104,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MOTOR 1"
+		(property "Value" "MOTOR"
 			(at 175.26 99.0599 0)
 			(effects
 				(font
@@ -1137,15 +1141,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e16a3724-50f9-4b37-afdd-dda50042390d")
+			(uuid "81e2eb7c-34d9-48ab-8bd4-ae60c8637dd2")
 		)
 		(pin "2"
-			(uuid "20ce578c-a399-4fb3-9cbf-5607f8282891")
+			(uuid "8c98d288-54fa-4146-9a76-73607e7ebe4e")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "J2")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1161,7 +1165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d25469-2861-4d24-abbb-c1aac4877aa1")
-		(property "Reference" "C12"
+		(property "Reference" "C"
 			(at 156.21 77.4762 0)
 			(effects
 				(font
@@ -1207,15 +1211,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "66b8eec4-dd59-4a98-a0df-206f2bfe2e56")
+			(uuid "ae86e998-8969-4ca3-9d25-5bd80dc09271")
 		)
 		(pin "2"
-			(uuid "2e51cb0f-9656-4731-b246-086e3fa5b3ea")
+			(uuid "12bffacf-9f31-402d-b028-412bb4648921")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "C12")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbfef200-3ff5-4d7e-9258-2e2d9a42bfcd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -1276,12 +1280,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecab446d-ff10-4e7b-ad92-ac6875719787")
+			(uuid "5c3d5af4-8264-4cc2-af4c-9d6447bb5a96")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "#PWR023")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1297,7 +1301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc22206b-19fe-4f75-967a-08d66c3579e2")
-		(property "Reference" "U3"
+		(property "Reference" "U"
 			(at 150.7333 110.49 0)
 			(effects
 				(font
@@ -1343,36 +1347,36 @@
 			)
 		)
 		(pin "6"
-			(uuid "448ed0a8-ad39-42f1-8aff-6fb4bfb081db")
+			(uuid "402d94c7-f898-4504-94ad-4acd30ef5b47")
 		)
 		(pin "3"
-			(uuid "5372085b-3e3c-4a32-b9df-ed49e5759f7a")
+			(uuid "608ccae0-ddd9-4d2e-9183-f553fcf53e83")
 		)
 		(pin "4"
-			(uuid "63a2fe22-5a1e-4197-8228-4ce0c19f82d9")
+			(uuid "9f7490cd-8d9c-492d-85b3-d346df802d31")
 		)
 		(pin "7"
-			(uuid "0df3c7b7-4185-43a7-849f-995eb8fadfef")
+			(uuid "8c69c67d-fc50-4a50-a797-6f55300cb071")
 		)
 		(pin "5"
-			(uuid "cb1f9e3a-1319-459a-8451-7993f546f605")
+			(uuid "a4e6f355-1e8b-45ab-bce1-63184664c5cd")
 		)
 		(pin "1"
-			(uuid "74bf2f87-90a6-4ce5-a4bf-f104a59a2681")
+			(uuid "5be1a99b-0083-49f3-9096-1d56844259eb")
 		)
 		(pin "9"
-			(uuid "c0eb2868-978d-4685-a3e4-59c18bf76bae")
+			(uuid "73486faf-6092-458b-af0e-bf769b3b14af")
 		)
 		(pin "8"
-			(uuid "4c3d11f3-fe43-4937-b01d-2b26b0334df5")
+			(uuid "b3605894-514d-4b6b-a0b1-25d32bf5c6f5")
 		)
 		(pin "2"
-			(uuid "64ab2878-ef84-4a4a-982b-a3824aea9f8b")
+			(uuid "2f5a6f5b-fa13-4c11-8024-b2be51f5b510")
 		)
 		(instances
-			(project ""
-				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
-					(reference "U3")
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
+					(reference "U1")
 					(unit 1)
 				)
 			)

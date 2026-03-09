@@ -85,7 +85,69 @@
 		(instances
 			(project "Antimatter-Control-Board"
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
-					(page "4")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.678 124.206)
+		(size 21.336 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd9e3a9b-0f0e-4e44-a772-4934aac148f4")
+		(property "Sheetname" "Motor Driver 2"
+			(at 217.678 123.4944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor Driver 1.kicad_sch"
+			(at 217.678 136.2206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR REVERSE" input
+			(at 217.678 132.588 180)
+			(uuid "938e71a8-a0e8-4424-80f0-8cb4cf41a96d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR FORWARD" input
+			(at 217.678 127.508 180)
+			(uuid "a1cadc2e-624c-4e0e-b36f-03246f8546c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Antimatter-Control-Board"
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
+					(page "5")
 				)
 			)
 		)
@@ -133,8 +195,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 104.648)
-		(size 44.958 42.164)
+		(at 218.186 104.902)
+		(size 21.336 11.176)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -149,7 +211,7 @@
 		)
 		(uuid "d7ef5df8-638b-454c-90c6-da1c11f20dab")
 		(property "Sheetname" "Motor Driver 1"
-			(at 217.17 103.9364 0)
+			(at 218.186 104.1904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,7 +220,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor Driver 1.kicad_sch"
-			(at 217.17 147.3966 0)
+			(at 218.186 116.6626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,10 +228,30 @@
 				(justify left top)
 			)
 		)
+		(pin "MOTOR REVERSE" input
+			(at 218.186 113.284 180)
+			(uuid "06f0845f-0d80-4b28-baf9-eec107f04834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR FORWARD" input
+			(at 218.186 108.204 180)
+			(uuid "8081b4e2-1760-458e-bc5e-59366566c96b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Antimatter-Control-Board"
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -211,7 +293,7 @@
 		(instances
 			(project "Antimatter-Control-Board"
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd"
-					(page "5")
+					(page "2")
 				)
 			)
 		)

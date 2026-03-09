@@ -413,6 +413,10 @@
       "Root"
     ],
     [
+      "dbe9be73-0db2-4556-978b-37507cf74b22",
+      "Power"
+    ],
+    [
       "cd81fa7b-c9c9-479e-a854-a7a62c650cde",
       "MCU"
     ],
@@ -421,12 +425,12 @@
       "Motor Driver 1"
     ],
     [
-      "53e964b7-054a-4c16-a129-10a0b028fb7d",
-      "IMU & MAG"
+      "bd9e3a9b-0f0e-4e44-a772-4934aac148f4",
+      "Motor Driver 2"
     ],
     [
-      "dbe9be73-0db2-4556-978b-37507cf74b22",
-      "Power"
+      "53e964b7-054a-4c16-a129-10a0b028fb7d",
+      "IMU & MAG"
     ]
   ],
   "text_variables": {}
