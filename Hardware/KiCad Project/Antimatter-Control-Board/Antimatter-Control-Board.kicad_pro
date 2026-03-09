@@ -413,12 +413,16 @@
       "Root"
     ],
     [
-      "b8a8e40c-38ac-41fb-a559-10b5fa02217c",
-      "Transceiver"
+      "cd81fa7b-c9c9-479e-a854-a7a62c650cde",
+      "MCU"
     ],
     [
       "d7ef5df8-638b-454c-90c6-da1c11f20dab",
       "Motor Driver 1"
+    ],
+    [
+      "53e964b7-054a-4c16-a129-10a0b028fb7d",
+      "IMU & MAG"
     ]
   ],
   "text_variables": {}
