@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a40f6595-2108-4bfb-8083-f4d92368cf7e")
+	(uuid "21b1b5f1-50d0-40bd-a2e5-1ff7acce6871")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -287,20 +287,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC1"
-				(at 0 15.24 0)
+			(property "Reference" "IC"
+				(at 5.08 16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "IIS2MDCTR"
-				(at 0 12.7 0)
+				(at 5.08 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Footprint" "IIS2MDCTR"
@@ -486,7 +488,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -2.54 16.51 270)
 					(length 5.08)
 					(name "VDD"
@@ -504,7 +506,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at -2.54 -16.51 90)
 					(length 5.08)
 					(name "GND_1"
@@ -522,7 +524,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 2.54 16.51 270)
 					(length 5.08)
 					(name "VDD_IO"
@@ -540,7 +542,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 2.54 -16.51 90)
 					(length 5.08)
 					(name "GND_2"
@@ -558,7 +560,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "NC_1"
@@ -576,7 +578,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 20.32 1.27 180)
 					(length 5.08)
 					(name "NC_2"
@@ -594,7 +596,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "NC_3"
@@ -2058,7 +2060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 105.41 157.48 0)
 			(effects
 				(font
@@ -3129,7 +3131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LSM6DS3USTR"
+		(property "Footprint" "SamacSys_Parts:LSM6DS3USTR"
 			(at 111.76 173.66 0)
 			(effects
 				(font
@@ -3307,7 +3309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 114.3 157.48 0)
 			(effects
 				(font
@@ -3374,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IIS2MDCTR"
+		(property "Footprint" "SamacSys_Parts:IIS2MDCTR"
 			(at 234.95 188.9 0)
 			(effects
 				(font

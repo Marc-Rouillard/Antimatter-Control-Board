@@ -423,6 +423,10 @@
     [
       "53e964b7-054a-4c16-a129-10a0b028fb7d",
       "IMU & MAG"
+    ],
+    [
+      "dbe9be73-0db2-4556-978b-37507cf74b22",
+      "Power"
     ]
   ],
   "text_variables": {}
