@@ -4,7 +4,7 @@ The Antimatter Control Board is a custom control board for antweight combat robo
 
 The key features of the PCB include:
 * Integrated battery connector and power switch
-* MCU with integrated wireless capabilities
+* nRF52832 MCU with integrated radio
 * LSM6DSO32TR 6-axis IMU (accelerometer and gyro)
 * IIS2MDC 3-axis magnetometer
 * 2x brushed motor drivers
