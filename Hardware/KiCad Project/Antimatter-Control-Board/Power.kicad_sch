@@ -1671,6 +1671,17 @@
 		)
 		(uuid "efa34897-6bf5-4e5b-bdb9-4156c2dee6d2")
 	)
+	(hierarchical_label "BATT SENSE"
+		(shape passive)
+		(at 128.27 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53c08950-e562-4cd3-bff8-7ea517e8014d")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 114.3 67.31 0)

@@ -8,14 +8,103 @@
 		(company "Marc Rouillard")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 95.25) (xy 151.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16862f11-495b-4413-b4d2-3553b5b97b51")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af4685b-7f98-491f-b7cd-6cf4731c73ac")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 198.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db7d976-eb06-4e7d-97b8-48bf5fa5b5a6")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f066952-9f9e-47c7-bcaa-70c96d6fcea4")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 156.21 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f90fb6-7398-4669-9cd3-142554250b7a")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 198.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f734829-1085-4968-9494-78cb8bb935ee")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8996aadb-3846-4284-a426-59b55bcd4a54")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 158.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2f7782-5a86-4773-a987-ededec8de104")
+	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 198.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb326069-1c40-428b-9fd5-6b51ef3e6579")
+	)
 	(sheet
-		(at 205.74 45.72)
+		(at 143.002 115.57)
 		(size 24.384 22.352)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -25,7 +114,7 @@
 		)
 		(uuid "53e964b7-054a-4c16-a129-10a0b028fb7d")
 		(property "Sheetname" "IMU & MAG"
-			(at 205.74 45.0084 0)
+			(at 138.684 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
-			(at 205.74 68.6566 0)
+			(at 143.002 138.5066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,44 +131,44 @@
 				(justify left top)
 			)
 		)
-		(pin "MAGINT" output
-			(at 205.74 62.23 180)
+		(pin "MAG INT" output
+			(at 158.75 115.57 90)
 			(uuid "f5afdc6d-1aad-4785-b261-c2f851130798")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "IMUINT" output
-			(at 205.74 58.42 180)
+		(pin "IMU INT" output
+			(at 156.21 115.57 90)
 			(uuid "a975a586-2249-481e-b8a3-e121476600e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 205.74 50.8 180)
+			(at 151.13 115.57 90)
 			(uuid "c2e5c900-f159-49ee-bb5f-465540beece7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 205.74 54.61 180)
+			(at 153.67 115.57 90)
 			(uuid "fb2a781e-486b-4ff5-955f-7989410aabf7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -91,8 +180,8 @@
 		)
 	)
 	(sheet
-		(at 217.678 124.206)
-		(size 21.336 11.43)
+		(at 198.12 77.47)
+		(size 21.082 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -107,7 +196,7 @@
 		)
 		(uuid "bd9e3a9b-0f0e-4e44-a772-4934aac148f4")
 		(property "Sheetname" "Motor Driver 2"
-			(at 217.678 123.4944 0)
+			(at 198.12 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor Driver 1.kicad_sch"
-			(at 217.678 136.2206 0)
+			(at 198.12 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +214,7 @@
 			)
 		)
 		(pin "MOTOR REVERSE" input
-			(at 217.678 132.588 180)
+			(at 198.12 83.82 180)
 			(uuid "938e71a8-a0e8-4424-80f0-8cb4cf41a96d")
 			(effects
 				(font
@@ -135,7 +224,7 @@
 			)
 		)
 		(pin "MOTOR FORWARD" input
-			(at 217.678 127.508 180)
+			(at 198.12 81.28 180)
 			(uuid "a1cadc2e-624c-4e0e-b36f-03246f8546c1")
 			(effects
 				(font
@@ -153,13 +242,12 @@
 		)
 	)
 	(sheet
-		(at 130.556 72.136)
+		(at 132.08 54.356)
 		(size 43.18 40.894)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -169,7 +257,7 @@
 		)
 		(uuid "cd81fa7b-c9c9-479e-a854-a7a62c650cde")
 		(property "Sheetname" "MCU"
-			(at 130.556 71.4244 0)
+			(at 132.08 53.6444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -178,12 +266,102 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 130.556 113.6146 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IMU INT" input
+			(at 156.21 95.25 270)
+			(uuid "51c0a4a7-9267-4b81-9c6a-0988690198de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1 IN1" output
+			(at 175.26 62.23 0)
+			(uuid "a1538737-edea-455a-957b-64dfb57d4baf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 153.67 95.25 270)
+			(uuid "ba7d93ec-db9b-4ec3-9b67-a45b6d7c2fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2 IN2" output
+			(at 175.26 83.82 0)
+			(uuid "bb732350-1c18-4549-a796-df49c82e06fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2 IN1" output
+			(at 175.26 81.28 0)
+			(uuid "cfd97311-8c0b-42bc-be85-bad09ff98a20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT SENSE" passive
+			(at 132.08 69.85 180)
+			(uuid "21cdf65c-d4bf-4a1b-8c11-2dd3facfec90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1 IN2" output
+			(at 175.26 64.77 0)
+			(uuid "e3cf29dc-5d3d-4997-84e0-957210061b57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 151.13 95.25 270)
+			(uuid "aee5f2db-b95d-4cba-955c-2cf0454e97db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG INT" input
+			(at 158.75 95.25 270)
+			(uuid "d18ee9ac-21b6-4ad8-9234-1363f016e538")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -195,7 +373,7 @@
 		)
 	)
 	(sheet
-		(at 218.186 104.902)
+		(at 198.12 57.912)
 		(size 21.336 11.176)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -211,7 +389,7 @@
 		)
 		(uuid "d7ef5df8-638b-454c-90c6-da1c11f20dab")
 		(property "Sheetname" "Motor Driver 1"
-			(at 218.186 104.1904 0)
+			(at 198.12 57.2004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -220,7 +398,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor Driver 1.kicad_sch"
-			(at 218.186 116.6626 0)
+			(at 198.12 69.6726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +407,7 @@
 			)
 		)
 		(pin "MOTOR REVERSE" input
-			(at 218.186 113.284 180)
+			(at 198.12 64.77 180)
 			(uuid "06f0845f-0d80-4b28-baf9-eec107f04834")
 			(effects
 				(font
@@ -239,7 +417,7 @@
 			)
 		)
 		(pin "MOTOR FORWARD" input
-			(at 218.186 108.204 180)
+			(at 198.12 62.23 180)
 			(uuid "8081b4e2-1760-458e-bc5e-59366566c96b")
 			(effects
 				(font
@@ -257,7 +435,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 20.828)
+		(at 69.85 62.738)
 		(size 24.13 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -273,7 +451,7 @@
 		)
 		(uuid "dbe9be73-0db2-4556-978b-37507cf74b22")
 		(property "Sheetname" "Power"
-			(at 20.32 20.1164 0)
+			(at 69.85 62.0264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,12 +460,22 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 20.32 45.5426 0)
+			(at 69.85 87.4526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BATT SENSE" passive
+			(at 93.98 69.85 0)
+			(uuid "e5b7a73f-2fa0-4fcc-bda8-cb7cc4f477a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
