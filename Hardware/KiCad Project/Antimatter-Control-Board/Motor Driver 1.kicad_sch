@@ -893,7 +893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff40dad-f654-4efe-93be-49408e2d12f5")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -946,6 +946,10 @@
 					(reference "#PWR01")
 					(unit 1)
 				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "#PWR?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -959,7 +963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "512a04da-aac3-4b2a-856b-f7ebb53321af")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 148.59 116.84 0)
 			(effects
 				(font
@@ -1010,6 +1014,10 @@
 			(project "Antimatter-Control-Board"
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
 					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -1095,7 +1103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c66991d-6880-4b63-8988-40e2f008e0f0")
-		(property "Reference" "J"
+		(property "Reference" "J?"
 			(at 175.26 96.5199 0)
 			(effects
 				(font
@@ -1152,6 +1160,10 @@
 					(reference "J3")
 					(unit 1)
 				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "J?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1165,7 +1177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90d25469-2861-4d24-abbb-c1aac4877aa1")
-		(property "Reference" "C"
+		(property "Reference" "C?"
 			(at 156.21 77.4762 0)
 			(effects
 				(font
@@ -1222,6 +1234,10 @@
 					(reference "C7")
 					(unit 1)
 				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "C?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1235,7 +1251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbfef200-3ff5-4d7e-9258-2e2d9a42bfcd")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR?"
 			(at 153.67 87.63 0)
 			(effects
 				(font
@@ -1288,6 +1304,10 @@
 					(reference "#PWR029")
 					(unit 1)
 				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "#PWR?")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1301,7 +1321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc22206b-19fe-4f75-967a-08d66c3579e2")
-		(property "Reference" "U"
+		(property "Reference" "U?"
 			(at 150.7333 110.49 0)
 			(effects
 				(font
@@ -1377,6 +1397,10 @@
 			(project "Antimatter-Control-Board"
 				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/bd9e3a9b-0f0e-4e44-a772-4934aac148f4"
 					(reference "U1")
+					(unit 1)
+				)
+				(path "/ab2a7697-0e5e-4b53-bb59-6796636b3acd/d7ef5df8-638b-454c-90c6-da1c11f20dab"
+					(reference "U?")
 					(unit 1)
 				)
 			)
