@@ -1,6 +1,6 @@
 # Antimatter Control Board
 
-The Antimatter Control Board is a custom control board for 150 g antweight combat robots and other small robots.
+The Antimatter Control Board is an in-development custom control board for 150 g antweight combat robots and other small robots.
 
 The key features of the PCB include:
 * nRF52833 MCU with integrated radio
